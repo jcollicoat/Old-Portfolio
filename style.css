@@ -1,0 +1,253 @@
+body {
+    font-family: "Inconsolata", monospace;
+    font-size: 62.5%;
+}
+
+#wrapper {
+    width: 80vw;
+    height: 100vh;
+    margin: 100px auto 50px auto;
+}
+
+
+/*   Navigation   */
+
+#nav {
+    width: 20vw;
+    height: auto;
+    float: left;
+}
+
+#logotype {
+    width: 200px;
+    height: auto;
+    margin: 0 0 30px 0;
+}
+
+.navset {
+    margin: 20px 0 0 0;
+}
+
+.navsubset {
+    margin: 0 0 0 30px;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+#about {
+    margin: 20px 0 30px 0;
+}
+
+#contact, #behance {
+    margin: 0px 0 30px 0;
+}
+
+
+/*   Content   */
+
+#content {
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    margin: 125px auto 0 20vw;
+}
+
+
+/*   Home   */
+
+.workimg {
+    width: 15vw;
+    height: 15vw;
+    background-size: 15vw;
+    background-position: center;
+    text-align: center;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    float: left;
+    position: absolute;
+}
+
+.workimg:hover {
+    cursor: pointer;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#workimg1 {
+    background-image: url(assets/thumbnails/1_RunningWGTN.png);
+    margin: 0 0 0 0;
+}
+
+#workimg2 {
+    background-image: url(assets/thumbnails/2_CalloftheWild.png);
+    margin: 0 0 0 15vw;
+}
+
+#workimg3 {
+    background-image: url(assets/thumbnails/3_Spotify.png);
+    margin: 0 0 0 30vw;
+}
+
+#workimg4 {
+    background-image: url(assets/thumbnails/9_Produse.png);
+    margin: 15vw 0 0 0;
+}
+
+#workimg5 {
+    background-image: url(assets/thumbnails/10_Alumni.png);
+    margin: 15vw 0 0 15vw;
+}
+
+#workimg6 {
+    background-image: url(assets/thumbnails/7_SweetNZ.png);
+    margin: 15vw 0 0 30vw;
+}
+
+#workimg7 {
+    background-image: url(assets/thumbnails/8_Quasar.png);
+    margin: 30vw 0 0 0vw;
+}
+
+
+/*   Projects   */
+
+.embeddedproject {
+    width: 65vw;
+    height: 700px;
+}
+
+#projectdetails {
+    width: 40vw;
+    margin: 30px 0 100px 0;
+}
+
+.projectsection {
+    position: absolute;
+    -webkit-transform: translate(-7.5vw, 0);
+    transform: translate(-7.5vw, 0);
+    color: #b5b2b2;
+}
+
+.processwork {
+    width: 45vw;
+    margin: 0 0 100px 0;
+}
+
+.processimg {
+    width: 45vw;
+    margin: 10px 0 10px 0;
+}
+
+.projectvideo {
+    width: 45vw;
+    height: auto;
+    margin: 10px 0 10px 0;
+}
+
+
+/*   Contact   */
+
+input[type=text] {
+    width: 500px;
+    border: none;
+    border-bottom: 2px solid #b5b2b2;
+    font-size: 1.6em;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+.formname[type=text] {
+    width: 242px;
+}
+
+textarea {
+    width: 30vw;
+    border: none;
+    border-bottom: 2px solid #b5b2b2;
+    font-size: 1.6em;
+    padding: 5px;
+    margin: 10px 0;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+}
+
+input[type=submit] {
+    width: 100px;
+    border: none;
+    border-bottom: 2px solid #000000;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.6em;
+    text-align: left;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+
+/*   Fonts   */
+
+h1 {
+    font-size: 1.6em;
+    color: #000000;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #b5b2b2;
+    margin: 10px 0 10px 0;
+}
+
+h3 {
+    font-size: 2em;
+    color: #ffffff;
+    opacity: 0;
+    width: 10vw;
+    margin: 6.5vw 0 0 2.5vw;
+    pointer-events: none;
+}
+
+p {
+    font-size: 1.6em;
+    color: #000000;
+}
+
+span {
+    font-size: 1.6em;
+    color: #000000
+}
+
+span2 {
+    font-size: 1.6em;
+    color: #b5b2b2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+::-moz-selection {
+    background: #e6e7e8;
+}
+
+::selection {
+    background: #e6e7e8;
+}

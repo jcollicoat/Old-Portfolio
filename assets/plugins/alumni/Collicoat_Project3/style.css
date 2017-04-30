@@ -1,0 +1,33 @@
+body {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+#svgdiv {
+    width: 80vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#svg {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 99vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+::selection {
+    background: #777777;
+}
+
+::-moz-selection {
+    background: #777777;
+}
+
+.disciplinekey {
+    display: none;
+}
