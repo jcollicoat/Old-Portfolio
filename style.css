@@ -6,7 +6,7 @@ body {
 #wrapper {
     width: 80vw;
     height: 100vh;
-    margin: 100px auto 50px auto;
+    margin: 50px auto 50px auto;
 }
 
 
@@ -18,11 +18,41 @@ body {
     float: left;
 }
 
+#logo {
+    margin: 0 0 25px 0;
+    width: 100px;
+}
+
+#logo-anim {
+    fill: none;
+    stroke: #000000;
+    stroke-miterlimit: 10;
+    stroke-width: 13px;
+    stroke-dasharray: 267;
+    stroke-dashoffset: 267;
+    -webkit-animation: dash 5s cubic-bezier(0.5, 0, 0, 1) forwards;
+    animation: dash 5s cubic-bezier(0.5, 0, 0, 1) forwards;
+}
+
+@-webkit-keyframes dash {
+    from {
+        stroke-dashoffset: 267;
+    }
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+/*
 #logotype {
     width: 200px;
     height: auto;
     margin: 0 0 30px 0;
 }
+*/
 
 .navset {
     margin: 20px 0 0 0;
@@ -50,7 +80,7 @@ body {
     width: 45vw;
     height: auto;
     position: absolute;
-    margin: 125px auto 0 20vw;
+    margin: 150px auto 0 20vw;
 }
 
 
