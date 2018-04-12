@@ -149,10 +149,12 @@ body {
 }
 
 .slidecontainer {
+    min-height: 5px;
     height: auto;
 }
 
 .slideimg {
+    min-height: 5px;
     height: auto;
 }
 
