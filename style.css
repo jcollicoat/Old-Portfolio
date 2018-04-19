@@ -46,6 +46,36 @@ body {
     }
 }
 
+/*   IE and EDGE Fix   */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    #logo-anim {
+        stroke-dashoffset: 0px;
+    }
+    @keyframes dash {
+        from {
+            stroke-dashoffset: 0px;
+        }
+        to {
+            stroke-dashoffset: 0px;
+        }
+    }
+}
+
+@supports (-ms-ime-align: auto) {
+    #logo-anim {
+        stroke-dashoffset: 0px;
+    }
+    @keyframes dash {
+        from {
+            stroke-dashoffset: 0px;
+        }
+        to {
+            stroke-dashoffset: 0px;
+        }
+    }
+}
+
 /*
 #logotype {
     width: 200px;
